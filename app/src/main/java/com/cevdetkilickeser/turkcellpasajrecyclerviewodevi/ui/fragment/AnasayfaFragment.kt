@@ -1,12 +1,11 @@
 package com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.ui.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.R
 import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.data.entity.Firsatlar
 import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.data.entity.Kampanyalar
 import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.data.entity.Kategoriler

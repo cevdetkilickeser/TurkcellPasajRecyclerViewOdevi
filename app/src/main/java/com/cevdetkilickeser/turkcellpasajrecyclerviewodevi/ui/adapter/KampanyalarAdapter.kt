@@ -6,11 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
-import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.PagerAdapter
 import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.R
 import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.data.entity.Kampanyalar
-import com.cevdetkilickeser.turkcellpasajrecyclerviewodevi.databinding.CardKampanyalarBinding
 import java.util.Objects
 
 class KampanyalarAdapter(var context: Context, var kampanyalarListesi: List<Kampanyalar>) : PagerAdapter() {
