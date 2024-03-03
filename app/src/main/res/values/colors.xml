@@ -3,6 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#E4B242</color>
-    <color name="grey">#B2B9C7</color>
+    <color name="indicator_yellow">#FEC801</color>
+    <color name="grey">#C3C5CA</color>
+    <color name="indicator_grey">#D7DDE6</color>
+    <color name="background_grey">#F4F6F8</color>
     <color name="pink">#FE3C70</color>
 </resources>

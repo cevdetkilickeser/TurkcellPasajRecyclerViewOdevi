@@ -29,8 +29,8 @@ class AnasayfaFragment : Fragment() {
         createData(kampanyalarListesi,kategorilerListesi,firsatlarListesi)
 
         val kampanyalarAdapter = KampanyalarAdapter(requireContext(),kampanyalarListesi)
-        binding.kampanyalarRV.adapter = kampanyalarAdapter
-        binding.kampanyalarRV.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.viewPager.adapter = kampanyalarAdapter
+        binding.dotsIndicator.attachTo(binding.viewPager)
 
         val kategorilerAdapter = KategorilerAdapter(requireContext(),kategorilerListesi)
         binding.kategorilerRV.adapter = kategorilerAdapter
